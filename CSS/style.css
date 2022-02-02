@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: radial-gradient(ellipse at bottom, #003350 0%,#000f61 100%);
+}
+
+.container h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: poppins;
+    color: transparent;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 85px;
+    margin: 0;
+    -webkit-text-stroke: 3px rgba(255, 255, 255, 0.7);
+    line-height: 85px;
+}
+
+.quadrado1{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border: 3px solid #000000;
+    animation: animate 10s linear infinite;
+}
+
+.quadrado2{
+    top: 11%;
+    left: 45%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border: 3px solid #000000;
+    animation: animat 10s linear infinite;
+}
+
+.quadrado3{
+    top: 90%;
+    left: 61%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border: 3px solid #000000;
+    animation: animate 10s linear infinite;
+}
+
+.quadrado4{
+    top: 62%;
+    left: 10%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border: 3px solid #000000;
+    animation: animate 10s linear infinite;
+}
+
+.quadrado5{
+    top: 32%;
+    left: 90%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border: 3px solid #000000;
+    animation: animates 10s linear infinite;
+}
+
+.quadrado6{
+    top: 45%;
+    left: 68%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border: 3px solid #000000;
+    animation: animat 20s linear infinite;
+}
+
+.quadrado7{
+    top: 25%;
+    left: 18%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border: 3px solid #000000;
+    animation: animates 20s linear infinite;
+}
+
+.quadrado8{
+    top: 85%;
+    left: 32%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border: 3px solid #000000;
+    animation: animate 20s linear infinite;
+}
+
+.quadrado9{
+    top: 95%;
+    left: 92%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border: 3px solid #000000;
+    animation: animat 20s linear infinite;
+}
+
+.quadrado10{
+    top: 97%;
+    left: 5%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border: 3px solid #000000;
+    animation: animates 20s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(-90px) rotate(360deg);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.3) translateY(-120px) rotate(-180deg);
+        border-radius: 50%;
+        opacity: 0.3;
+    }
+    100%{
+        transform: scale(1.3) translateY(-300px) rotate(-360deg);
+        opacity: 0;
+    }
+
+}
+
+@keyframes animat{
+    0%{
+        transform: scale(0) translateY(-90px) rotate(360deg);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.3) translateY(-120px) rotate(-360deg);
+        border-radius: 50%;
+        opacity: 0.3;
+    }
+    100%{
+        transform: scale(1.3) translateY(-300px) rotate(-790deg);
+        opacity: 0;
+    }
+
+}
+
+@keyframes animates{
+    0%{
+        transform: scale(0) translateY(-90px) rotate(90deg);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(0.7) translateY(-120px) rotate(180deg);
+        border-radius: 50%;
+        opacity: 0.3;
+    }
+    100%{
+        transform: scale(0.3) translateY(-300px) rotate(180deg);
+        border-radius: 50%;
+        opacity: 0;
+    }
+}
